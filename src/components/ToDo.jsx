@@ -12,7 +12,6 @@ export default function ToDo({
     handleSave,
     setTasks,
     setShowDuplicate,
-    showDuplicate
 }) {
     return (
         <div className="relative min-h-screen flex items-start justify-center px-4 pt-12 sm:pt-24">
@@ -129,11 +128,8 @@ export default function ToDo({
 
                     ))}
                 </ul>
-            </div>
 
-            {showDuplicate && (
-                <DuplicatePopUp onClose={() => setShowDuplicate(false)} />
-            )}
+            </div>
         </div>
     );
 }
