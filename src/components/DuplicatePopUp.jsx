@@ -1,6 +1,9 @@
 export default function DuplicatePopUp({ onClose }) {
     return (
-        <div className="fixed inset-0 z-50 flex items-center justify-center px-4">
+        <div className="fixed inset-0 z-50 
+            flex items-start sm:items-center 
+            justify-center 
+            pt-32 sm:pt-0 px-4">
 
             <div
                 className="absolute inset-0 bg-black/40"
