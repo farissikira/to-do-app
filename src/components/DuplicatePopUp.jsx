@@ -21,7 +21,7 @@ export default function DuplicatePopUp({ onClose }) {
                 <div className="mt-3 text-center">
                     <button
                         onClick={onClose}
-                        className="bg-white sm:bg-white text-blue-700 px-3 py-1.5 rounded-lg text-sm font-semibold hover:bg-gray-200 transition"
+                        className="bg-white text-blue-700 px-3 py-1.5 rounded-lg text-sm font-semibold hover:bg-gray-200 transition"
                     >
                         Got it
                     </button>
